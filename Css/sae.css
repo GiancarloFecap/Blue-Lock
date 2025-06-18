@@ -1,0 +1,29 @@
+/* Definindo o fundo com uma imagem */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('Imagens/BG/sae-flow.png'); /* Substitua com o caminho da sua imagem */
+    background-size: cover;  /* Para cobrir toda a tela */
+    background-position: center;  /* Para centralizar a imagem */
+    background-repeat: no-repeat;
+  }
+  
+  /* Estilo do texto centralizado */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    color: white;
+  }
+  
+  h1 {
+    font-size: 3em;
+    font-family: Arial, sans-serif;
+  }
+  
+  p {
+    font-size: 1.5em;
+  }
